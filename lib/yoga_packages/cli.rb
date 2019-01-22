@@ -22,7 +22,7 @@ class YogaPackages::CLI
     while input != "exit"
       puts "enter the number of the package you would like more info on or type list to see the packages again or type exit:"
       input = gets.strip.downcase
-      if input.to_i>0
+      if input.to_i > 0
         the_package = @packages[input.to_i-1]
         puts "#{the_package.name} - #{the_package.price}"
       elsif input == "list"
