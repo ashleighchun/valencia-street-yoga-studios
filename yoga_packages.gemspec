@@ -10,8 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ashleigh.chun@gmail.com"]
 
   spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com/ashleigh/yoga_packages"
+  spec.homepage      = "https://github.com/ashleighchun/valencia-street-yoga-studios"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +19,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "http://mygemserver.com"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/ashleigh/yoga_packages"
-    spec.metadata["changelog_uri"] = "https://github.com/ashleigh/yoga_packages"
+    spec.metadata["source_code_uri"] = "https://github.com/ashleighchun/valencia-street-yoga-studios"
+    spec.metadata["changelog_uri"] = "https://github.com/ashleighchun/valencia-street-yoga-studios"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
